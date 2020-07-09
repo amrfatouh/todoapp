@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.underlined:hover {
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.collection-item {
+  font-size: large;
+  font-weight: 500;
+}
