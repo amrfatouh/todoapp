@@ -1,0 +1,22 @@
+.finished-tasks h2 {
+    text-align: center;
+    color: #2196F3;
+}
+
+.finished-tasks .task {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    text-decoration: line-through;
+    color: rgb(91, 187, 35);
+}
+
+.finished-tasks .task:not(:first-of-type) {
+    border-top: 0;
+}
+
+.finished-tasks .task span {
+    color: #888;
+    text-decoration: none;
+    float: right;
+    cursor: pointer;
+}
